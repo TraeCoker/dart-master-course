@@ -21,11 +21,11 @@ void main() {
 
   //final means the value cannot be changed. good for explicit typing. Most variables are final
   final String fullname = 'Trae';
-  fullname = 'Traeford'; // error
+  //fullname = 'Traeford'; // error
 
   //const is like final, but is an immutable compile-time constant
   const int age = 75;
   //conts > final when you can, but cannot set to const when dependent on other runtime variables
-  const int favnumber = num1 + 5; //error
+  //const int favnumber = num1 + 5; //error
 
 }

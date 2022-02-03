@@ -1,5 +1,5 @@
 //variables cannot be null by default
-//less runtime errors and more efficient code without need for null checking.
+//less runtime errors and more concise code without need for null checking.
 void main() {
 
   //int age = null; // error
@@ -18,7 +18,7 @@ void main() {
 }
 
 //late initialization - lets you keep the property as a non-nullable value, but initialize it later
-//use sparingly. It is a workaround that will result in errors if not used carefully.
+//"lazy variable", use sparingly. It is a workaround that will result in errors if not used carefully.
 class Animal {
   late final String _size;
 
